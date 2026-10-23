@@ -1,11 +1,11 @@
 function conta(n) {
     for( let i = 1; i <= n; i++){
         if (i % 3 == 0) {
-           console.log(Fizz)
+           console.log('fizz') 
         }else if (i % 5 == 0){
-            console.log(Buzz)
+            console.log('Buzz')
         }else if(i % 15 == 0){
-            console.log(fizzBuzz)
+            console.log('fizzBuzz')
         }else {
             console.log(i)
         }
